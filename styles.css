@@ -7,6 +7,13 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 .section-one {
     background-color: #1F2937;
     display: flex;
@@ -62,6 +69,11 @@ a {
     font-size: 18px;;
 }
 
+img {
+    width: 250px;
+}
+
+
 button {
     background-color: #3882f6;
     border: none;
@@ -70,4 +82,29 @@ button {
     padding: 5px;
     border-radius: 8px;
     width: 100px;
+}
+
+.img-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.img-cap {
+    text-align: center;
 }
